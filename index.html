@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Final Project - Mad Libs</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css"
+    />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1 class="title is-1">Crazy Christmas</h1>
+
+      <form id="madLibForm" class="has-text-centered">
+        <input
+          class="input is-rounded is-success"
+          name="weather"
+          placeholder="Give me any weather condition"
+        />
+        <input
+          class="input is-rounded is-warning "
+          name="name"
+          placeholder="Give me a name"
+        />
+        <input
+          class="input is-rounded is-success "
+          name="boyname"
+          placeholder="Give me the name of a boy"
+        />
+        <input
+          class="input is-rounded is-warning "
+          name="transportation"
+          placeholder="Give me the name of a transportation"
+        />
+        <input
+          class="input is-rounded is-success "
+          name="girlname"
+          placeholder="Give me the name of a girl"
+        />
+        <input
+          class="input is-rounded is-warning "
+          name="animal"
+          placeholder="Give me a naimal species"
+        />
+        <input
+          class="input is-rounded is-success "
+          name="name1"
+          placeholder="Give me a name"
+        />
+        <input
+          class="input is-rounded is-warning "
+          name="quote"
+          placeholder="Give me a famous quote"
+        />
+
+        <br /><br />
+
+        <button type="submit" class="button is-outlined is-rounded is-danger">
+          Submit Mad Lib!
+        </button>
+
+        <br /><br />
+      </form>
+    </div>
+
+    <div id="paragraphContainer" class="card is-invisible">
+      <div class="card-content">
+        <div id="madLibsContent" class="content"></div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

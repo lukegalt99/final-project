@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  padding: 20px 80px;
+}
+
+form {
+  width: 400px;
+}
+
+form > input {
+  margin-bottom: 8px;
+}
+
+#paragraphContainer {
+  width: 400px;
+  color: green;
+}
+
+.highlight {
+  color: darkred;
+}
